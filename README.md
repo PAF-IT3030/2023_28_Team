@@ -1,4 +1,4 @@
-# FLAVORFEED Food Reiview Social Media App
+# FlavorFeed Food Reiview Social Media App
 # Project Group - 28
 ### Group Leader - IT21138072 Karunarathna W.P.D.B  
 ### Member 2 - IT21037788 Chandrasiri G.K.N.N
