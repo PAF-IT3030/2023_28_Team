@@ -1,6 +1,4 @@
-Please go under edit and edit this file as needed for your project
-
-# Team Name - 
+# FLAVORFEED Food Reiview Social Media App
 # Project Group - 28
 ### Group Leader - IT21138072 Karunarathna W.P.D.B  
 ### Member 2 - IT21037788 Chandrasiri G.K.N.N
@@ -9,5 +7,12 @@ Please go under edit and edit this file as needed for your project
 
 #### Brief Description of your Solution - 
 
+## Technologies:
+Backend: Spring Boot, Maven
+Frontend: ReactJS
+Middleware: Redux
+Database: MySQL
+
+## Contributors:
 Note - The student's github account should be given in brackets e.g. (asiriRepos), this ideally should be your student id 
 
