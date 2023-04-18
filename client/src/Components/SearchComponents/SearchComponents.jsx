@@ -1,6 +1,7 @@
 import React from 'react'
 import "./SearchComponents.css"
 import SearchUserCard from './SearchUserCard'
+import {useDisclosure} from '@chakra-ui/react'
 
 const SearchComponents = () => {
   return (
