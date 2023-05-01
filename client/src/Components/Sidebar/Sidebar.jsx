@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import { IoReorderThreeOutline } from "react-icons/io5"
 import { mainu } from './SidebarConfig'
 import { useNavigate } from 'react-router-dom';
+import logo from '../../Images/flavor.png';
 
 const Sidebar = () => {
     const [activeTab, setActiveTab] = useState();
@@ -23,7 +24,7 @@ const Sidebar = () => {
               <div>
                   
             <div className='pt-10'>
-                <img className='w-40' src='https://i.imgur.com/zqpwkLQ.png' alt='' />
+                <img className='w-40' src={logo} alt='' />
               </div>
               <div className='mt-10'>
                   {mainu.map((item) => (
