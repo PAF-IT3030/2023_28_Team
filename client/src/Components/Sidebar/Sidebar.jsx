@@ -2,10 +2,6 @@ import React, {useState} from 'react'
 import { IoReorderThreeOutline } from "react-icons/io5"
 import { mainu } from './SidebarConfig'
 import { useNavigate } from 'react-router-dom';
-import CreatePostModel from '../Post/CreatePostModel';
-import { useDisclosure } from '@chakra-ui/react';
-import SearchComponents from '../SearchComponents/SearchComponents';
-import logo from '../../images/flavor.png'
 const Sidebar = () => {
   const [activeTab, setActiveTab] = useState("");
   const navigate = useNavigate();
@@ -37,9 +33,7 @@ const Sidebar = () => {
           <div className={`flex flex-col justify-between h-full ${activeTab==="Search"?"px-2":"px-10"}`}>
               {<div>
                   
-            {activeTab!=="Search" && <div className='pt-10'>
-                <img className='w-40' src={logo} alt='' />
-              </div>}
+
               <div className='mt-10'>
                   {mainu.map((item) => (
                   <div onClick={()=>handleTabClick(item.title)} className='flex items-center mb-5 cursor-pointer text-lg'>
